@@ -1,12 +1,6 @@
-project('com.github.petergrillot.todo', 'vala', 'c')
+project('com.github.petergrillot.godo', 'vala', 'c')
 
-executable(
-    meson.project_name(),
-    'src/Main.vala',
-    'src/View.vala',
-    'src/Application.vala',
-    dependencies: [
-        dependency('gtk+-3.0')
-    ],
-    install: true
-)
+subdir('src')
+subdir('data')
+
+meson.add_install_script('meson/post_install.py')
