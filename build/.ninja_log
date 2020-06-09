@@ -1,0 +1,8 @@
+# ninja log v5
+0	467	1591670472065611047	com.github.petergrillot.todo@exe/Main.c	58719ec96ab46d9d
+0	467	1591670472065611047	com.github.petergrillot.todo@exe/View.c	58719ec96ab46d9d
+0	467	1591670472065611047	com.github.petergrillot.todo@exe/Application.c	58719ec96ab46d9d
+467	901	1591670472573614100	com.github.petergrillot.todo@exe/meson-generated_Application.c.o	30351beeb61b73f5
+467	946	1591670472617614364	com.github.petergrillot.todo@exe/meson-generated_Main.c.o	dd71cc0f7812848f
+467	958	1591670472629614437	com.github.petergrillot.todo@exe/meson-generated_View.c.o	f0f02bdf45e6db1b
+958	1100	1591670472773615303	com.github.petergrillot.todo	da3ffa154f10854c
